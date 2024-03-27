@@ -1,5 +1,15 @@
 /**
-    useful: useful pattern mining
+    CAVEAT: This program is a work-in-progress prototype
+
+    Publication: 
+
+    Giulia Bernardini (University of Trieste), Huiping Chen (King's College London), Alessio Conte (University of Pisa), 
+    Roberto Grossi (University of Pisa), Veronica Guerrini (University of Pisa), Grigorios Loukides (King's College London), 
+    Nadia Pisanti (University of Pisa), Solon Pissis (CWI).
+    Utility-Oriented String Mining. 
+    SIAM International Conference on Data Mining, 2024 (SDM2024).
+    
+    Code for MIA (MUSM Index-based Algorithm for Maximal Useful String Mining), S. P. Pissis, 2024
 
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by

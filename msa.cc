@@ -9,7 +9,7 @@
     Utility-Oriented String Mining. 
     SIAM International Conference on Data Mining, 2024 (SDM2024).
     
-    Code for MSA (MUSM Scan-based Algorithm for Maximal Useful String Minig), R. Grossi, 2024
+    Code for MSA (MUSM Scan-based Algorithm for Maximal Useful String Mining), R. Grossi, 2024
 
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
