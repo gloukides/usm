@@ -1,0 +1,41 @@
+MF=     Makefile.msa.64.gcc
+ 
+CC=     g++
+ 
+CFLAGS= -Wno-deprecated-enum-enum-conversion -Wno-deprecated-declarations -D_USE_64 -march=native -O3 -fomit-frame-pointer -funroll-loops 
+ 
+LFLAGS= -std=c++2a -O3 -DNDEBUG -I libsdsl/include/ -L libsdsl/lib/ -lsdsl -ldivsufsort -ldivsufsort64 -Wl,-rpath=$(PWD)/libsdsl/lib -lz
+
+EXE=    msa
+ 
+SRC=    msa.cc headers/characterhash.h  headers/kseq.h  headers/mersennetwister.h  headers/rabinkarphash.h  headers/unordered_dense.h
+ 
+HD=     ../utils.h Makefile.msa.64.gcc
+ 
+# 
+# No need to edit below this line 
+# 
+ 
+.SUFFIXES: 
+.SUFFIXES: .cc .o 
+ 
+OBJ=    $(SRC:.cc=.o) 
+ 
+.cc.o: 
+	$(CC) $(CFLAGS)-c $(LFLAGS) $< 
+ 
+all:    $(EXE)  msa_create
+ 
+$(EXE): $(OBJ) 
+	$(CC) $(CFLAGS) -o $@ $(OBJ) $(LFLAGS) 
+
+msa_create: msa_create_inputs.cc
+	g++ -O3 -o msa_create msa_create_inputs.cc -lz
+	
+$(OBJ): $(MF) $(HD) 
+ 
+clean: 
+	rm -f msa msa.o msa_create 
+
+
+

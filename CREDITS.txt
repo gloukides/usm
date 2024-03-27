@@ -1,0 +1,9 @@
+Authors for the following C/C++ source code are not avaible in Linux distributions and make available in folder "headers/"
+
+unordered_dense.h // Martin Leitner-Ankerl, https://github.com/martinus/unordered_dense 
+rabinkarphash.h, characterhash.h, mersennetwister.h // Daniel Lemire, https://github.com/lemire/rollinghashcpp/tree/master
+kseq.h // Heng Li, https://github.com/lh3/seqtk/tree/master 
+
+divsufsort64.h  // Simon Gog, https://github.com/simongog/sdsl-lite
+divsufsort.h  // Simon Gog, https://github.com/simongog/sdsl-lite
+sdsl/bit_vectors.hpp // Simon Gog, https://github.com/simongog/sdsl-lite
