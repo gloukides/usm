@@ -10,7 +10,7 @@ EXE=    msa
  
 SRC=    msa.cc headers/characterhash.h  headers/kseq.h  headers/mersennetwister.h  headers/rabinkarphash.h  headers/unordered_dense.h
  
-HD=     ../utils.h Makefile.msa.64.gcc
+HD=     Makefile.msa.64.gcc
  
 # 
 # No need to edit below this line 
