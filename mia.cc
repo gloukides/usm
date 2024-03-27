@@ -750,7 +750,7 @@ int main(int argc, char **argv)
   	unsigned char * seq = ( unsigned char * ) text_string.c_str(); //the string
 
 	/* Calling the fast algorithm */
-	cout<<"\n Index-base ALGORITHM\n";
+	cout<<"\n Index-based ALGORITHM\n";
   	useful_pattern_mining( seq, WEIGHTS, n, U, L, argv[1]);
 	
 
