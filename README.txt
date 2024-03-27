@@ -1,4 +1,5 @@
-This is the code for the paper Utility-Oriented String Mining, to appear in the SIAM International Conference on Data Mining (SDM), 2024. 
+This is the code for the paper 
+     Utility-Oriented String Mining, to appear in the SIAM International Conference on Data Mining (SDM), 2024. 
 Authors:
 Giulia Bernardini (University of Trieste), Huiping Chen (University of Birmingham), Alessio Conte (University of Pisa), Roberto Grossi (University of Pisa), Veronica Guerrini (University of Pisa), Grigorios Loukides (King's College London), Nadia Pisanti (University of Pisa), Solon Pissis (CWI).
     
